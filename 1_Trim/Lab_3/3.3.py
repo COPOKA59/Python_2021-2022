@@ -1,0 +1,5 @@
+x, y=map(int, input('Введите координаты точки x и у через пробел: ').split())
+if x==0 and y==0 : print('0')
+elif (x>0 or x<0) and y==0: print('1')
+elif x==0 and (y>0 or y<0): print('2')
+else: print('3')
